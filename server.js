@@ -20,12 +20,13 @@ http.listen(process.env.PORT || 8000, function(){
 io.on('connection', function(socket){
   socket.on('htmlUpdate', function(html){
       if (html !== undefined && html !== null) {
+        console.log('cheerio loaded');
         $ = cheerio.load(html);
       }
   });
   socket.on('eval', function(code) {
       try {
-		  console.log(code);
+          console.log(code);
           const result = eval(code);
           socket.emit('result', result);
       } catch (e) {

@@ -9,18 +9,25 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <div class="space"></div>
         <div class="ui grid centered">
-            <div class="fifteen wide column">
-                <div class="ui form">
-                  <div class="field">
-                    <label>Paste html here:</label>
-                    <textarea id="html"></textarea>
-                  </div>
+            <div class="fourteen wide column">
+                <div class="code-window code-free">
+                    <header class="code-header">
+                        <div class="code-buttons"></div>
+                        Results
+                    </header>
+                    <div class="ui form">
+                      <div class="field">
+                        <label>Paste html here:</label>
+                        <textarea id="html"></textarea>
+                      </div>
+                    </div>
                 </div>
             </div>
             <div class="nine wide column">
                 <form action="">
-                    <div class="code-window ">
+                    <div class="code-window">
                         <header class="code-header">
                             <div class="code-buttons"></div>
                             My Cheerio Commands
@@ -30,8 +37,14 @@
                 </form>
             </div>
             <div class="five wide column">
-                <div class="ui green message">
-                    <pre id="result"></pre>
+                <div class="code-window">
+                    <header class="code-header">
+                        <div class="code-buttons"></div>
+                        Results
+                    </header>
+                    <div class="ui green message">
+                        <pre id="result"></pre>
+                    </div>
                 </div>
             </div>
         </div>
