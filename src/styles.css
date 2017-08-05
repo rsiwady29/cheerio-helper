@@ -1,0 +1,37 @@
+#code {
+      position:relative;
+ }
+.code-window {
+    max-width: 700px;
+    height: 380px;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.code-window .code-header {
+    background: #ececec;
+    padding: 0.4rem;
+    font-size: 0.9rem;
+    position: relative;
+    color: #a5a5a5;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center;
+}
+.code-window .code-header .code-buttons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 12px;
+  margin-left: 35px;
+  width: 11px;
+  height: 11px;
+  background: #a5a5a5;
+  border-radius: 50%;
+  box-shadow: -20px 0 0 #a5a5a5, 20px 0 0 #a5a5a5;
+}
+.code-window .code-editor {
+    position: relative;
+    height: 340px;
+    color: #444;
+}
