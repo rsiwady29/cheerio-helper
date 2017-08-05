@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/rsiwady29/cheerio-helper/issues"
   },
-  "homepage": "https://github.com/rsiwady29/cheerio-helper#readme"
+  "homepage": "https://github.com/rsiwady29/cheerio-helper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.3",
+    "socket.io": "^2.0.3"
+  }
 }
